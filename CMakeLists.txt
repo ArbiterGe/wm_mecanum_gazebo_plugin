@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(mecanum_gazebo_plugin)
+project(wm_mecanum_gazebo_plugin)
 
 find_package(catkin REQUIRED COMPONENTS rosconsole roslint)
 find_package(gazebo)
 
 catkin_package(
-  #  LIBRARIES mecanum_gazebo_plugin
+  #  LIBRARIES wm_mecanum_gazebo_plugin
 )
 
 include_directories(
